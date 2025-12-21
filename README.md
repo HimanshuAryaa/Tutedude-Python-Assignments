@@ -15,6 +15,10 @@ Tutedude-Python-Assignments/
 │   ├── README.md
 │   ├── task1.py
 │   └── task2.py
+├── assignment2/
+│   ├── README.md
+│   ├── task1.py
+│   └── task2.py
 └── (more assignments to come...)
 ```
 
@@ -24,6 +28,11 @@ Tutedude-Python-Assignments/
 **Module 2: Basic Python Concepts**
 - **Task 1**: Perform Basic Mathematical Operations
 - **Task 2**: Create a Personalized Greeting
+
+### [Assignment 2: Control Structures in Python](./assignment2/)
+**Module 3: Control Structures in Python**
+- **Task 1**: Check if a Number is Even or Odd
+- **Task 2**: Sum of Integers from 1 to 50 Using a Loop
 
 ## 🚀 How to Use This Repository
 
