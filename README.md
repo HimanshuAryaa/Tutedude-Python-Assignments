@@ -19,6 +19,10 @@ Tutedude-Python-Assignments/
 │   ├── README.md
 │   ├── task1.py
 │   └── task2.py
+├── assignment3/
+│   ├── README.md
+│   ├── task1.py
+│   └── task2.py
 └── (more assignments to come...)
 ```
 
@@ -33,6 +37,11 @@ Tutedude-Python-Assignments/
 **Module 3: Control Structures in Python**
 - **Task 1**: Check if a Number is Even or Odd
 - **Task 2**: Sum of Integers from 1 to 50 Using a Loop
+
+### [Assignment 3: Functions & Modules in Python](./assignment3/)
+**Module 4: Functions & Modules in Python**
+- **Task 1**: Calculate Factorial Using a Function
+- **Task 2**: Using the Math Module for Calculations
 
 ## 🚀 How to Use This Repository
 
