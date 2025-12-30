@@ -23,6 +23,12 @@ Tutedude-Python-Assignments/
 │   ├── README.md
 │   ├── task1.py
 │   └── task2.py
+├── assignment4/
+│   ├── README.md
+│   ├── task1.py
+│   ├── task2.py
+│   ├── sample.txt (for Task 1) 
+│   └── output.txt (for Task 2)
 └── (more assignments to come...)
 ```
 
@@ -42,6 +48,11 @@ Tutedude-Python-Assignments/
 **Module 4: Functions & Modules in Python**
 - **Task 1**: Calculate Factorial Using a Function
 - **Task 2**: Using the Math Module for Calculations
+
+### [Assignment 4: Files, Exceptions, and Errors in Python](./assignment4/)
+**Module 5: Files, Exceptions, and Errors in Python**
+- **Task 1**: Read a File and Handle Errors
+- **Task 2**: Write and Append Data to a File
 
 ## 🚀 How to Use This Repository
 
