@@ -29,6 +29,10 @@ Tutedude-Python-Assignments/
 │   ├── task2.py
 │   ├── sample.txt (for Task 1) 
 │   └── output.txt (for Task 2)
+├── assignment5/
+│   ├── README.md
+│   ├── task1.py
+│   └── task2.py
 └── (more assignments to come...)
 ```
 
@@ -53,6 +57,11 @@ Tutedude-Python-Assignments/
 **Module 5: Files, Exceptions, and Errors in Python**
 - **Task 1**: Read a File and Handle Errors
 - **Task 2**: Write and Append Data to a File
+
+### [Assignment 5: Data Structures and Strings in Python](./assignment5/)
+**Module 6: Data Structures and Strings in Python**
+- **Task 1**: Create a Dictionary of Student Marks
+- **Task 2**: Demonstrate List Slicing
 
 ## 🚀 How to Use This Repository
 
