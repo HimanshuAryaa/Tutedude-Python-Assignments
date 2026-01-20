@@ -33,6 +33,14 @@ Tutedude-Python-Assignments/
 │   ├── README.md
 │   ├── task1.py
 │   └── task2.py
+└──assignment6-tkinter-calculator/
+│   ├── README.md
+│   ├── src
+│      └── calculator.py
+│   └── screenshots/
+│      ├── calculator_initial.png      (Image 1 - default state with 0)
+│      ├── calculator_operation.png    (Image 2 - showing 55)
+│      └── calculator_error.png         (Image 3 - division by zero error)
 └── (more assignments to come...)
 ```
 
@@ -63,6 +71,11 @@ Tutedude-Python-Assignments/
 - **Task 1**: Create a Dictionary of Student Marks
 - **Task 2**: Demonstrate List Slicing
 
+### [Assignment 6: Calculator Using Tkinter](./assignment6/)
+**Module 14 & 15: Calculator Using Tkinter**
+- GUI-based calculator application with basic arithmetic operations
+- Built with Python Tkinter library
+
 ## 🚀 How to Use This Repository
 
 1. Navigate to the specific assignment folder
@@ -84,4 +97,4 @@ This repository is for educational purposes as part of the TuteDude Python cours
 
 ---
 
-*Last Updated: December 2024*
+*Last Updated: January 2026*
