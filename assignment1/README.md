@@ -1,6 +1,6 @@
 # Assignment 1: Basic Python Concepts
 
-## Module 2: Basic Python Concepts
+## Basic Python Concepts
 
 This assignment contains two tasks focusing on fundamental Python programming concepts including user input, mathematical operations, and string concatenation.
 
@@ -74,3 +74,16 @@ Hello, Himanshu Arya! Welcome to the python program.
 - `task1.py` - Mathematical operations program
 - `task2.py` - Personalized greeting program
 - `README.md` - This documentation file
+
+---
+
+## 👤 Author
+
+[Himansu Arya]
+Created as part of the TuteDude Python Programming Course - Module 16
+
+---
+
+## 📄 License
+
+This project is for educational purposes as part of the TuteDude Python course.
