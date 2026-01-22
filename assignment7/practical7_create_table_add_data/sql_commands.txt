@@ -1,0 +1,29 @@
+demodb=# create database student;
+CREATE DATABASE
+demodb=# \c student
+You are now connected to database "student" as user "postgres".
+student=# CREATE TABLE students(name text,number int,age int);
+CREATE TABLE
+student=# \d
+          List of relations
+ Schema |   Name   | Type  |  Owner
+--------+----------+-------+----------
+ public | students | table | postgres
+(1 row)
+
+
+student=# INSERT INTO students(name,number,age) VALUES('Anshu',2,25);
+INSERT 0 1
+student=# INSERT INTO students(name,number,age) VALUES('Pooja',12,23);
+INSERT 0 1
+student=# INSERT INTO students(name,number,age) VALUES('Kartik',8,22);
+INSERT 0 1
+student=#
+student=#
+student=# SELECT * FROM students;
+  name  | number | age
+--------+--------+-----
+ Anshu  |      2 |  25
+ Pooja  |     12 |  23
+ Kartik |      8 |  22
+(3 rows)
