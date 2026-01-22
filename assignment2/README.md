@@ -76,7 +76,7 @@ The sum of numbers from 1 to 50 is: 1275
 ## 👤 Author
 
 [Himansu Arya]
-Created as part of the TuteDude Python Programming Course - Module 16
+Created as part of the TuteDude Python Programming Course 
 
 ---
 
