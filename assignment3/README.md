@@ -1,6 +1,6 @@
 # Assignment 3: Functions & Modules in Python
 
-## Module 4: Functions & Modules in Python
+## Functions & Modules in Python
 
 This assignment contains two tasks focusing on creating custom functions and using Python's built-in modules for mathematical calculations.
 
@@ -85,3 +85,16 @@ Sine: -0.2879033166650653
 - `task1.py` - Factorial calculator using recursion
 - `task2.py` - Math module calculations program
 - `README.md` - This documentation file
+
+---
+
+## 👤 Author
+
+[Himansu Arya]
+Created as part of the TuteDude Python Programming Course
+
+---
+
+## 📄 License
+
+This project is for educational purposes as part of the TuteDude Python course.
