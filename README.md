@@ -41,19 +41,19 @@ Tutedude-Python-Assignments/
 │      ├── calculator_initial.png       (Image 1 - default state with 0)
 │      ├── calculator_operation.png     (Image 2 - showing 55)
 │      └── calculator_error.png         (Image 3 - division by zero error)
-│      └── assignment7/
-│          ├── README.md
-│          ├── practical5_create_database/          - Database creation practical
-│          ├── practical6_delete_database/          - Database deletion practical
-│          ├── practical7_create_table_add_data/    - Table creation and data insertion
-│          ├── practical8_retrieve_delete_data/     - Data retrieval and deletion
-│          ├── practical9_virtualenv_setup/         - Virtual environment setup
-│          ├── practical10_install_psycopg2/        - psycopg2 installation
-│          ├── practical11_database_connection/     - Python-PostgreSQL connection
-│          ├── practical12_create_table_python/     - Creating tables via Python
-│          ├── practical13_insert_data_python/      - Inserting data via Python
-│          ├── practical14_extract_data_python/     - Extracting data via Python
-│          └── practical15_user_input/              - User input integration
+└── assignment7/
+│   ├── README.md
+│   ├── practical5_create_database/          - Database creation practical
+│   ├── practical6_delete_database/          - Database deletion practical
+│   ├── practical7_create_table_add_data/    - Table creation and data insertion
+│   ├── practical8_retrieve_delete_data/     - Data retrieval and deletion
+│   ├── practical9_virtualenv_setup/         - Virtual environment setup
+│   ├── practical10_install_psycopg2/        - psycopg2 installation
+│   ├── practical11_database_connection/     - Python-PostgreSQL connection
+│   ├── practical12_create_table_python/     - Creating tables via Python
+│   ├── practical13_insert_data_python/      - Inserting data via Python
+│   ├── practical14_extract_data_python/     - Extracting data via Python
+│   └── practical15_user_input/              - User input integration
 └── (more assignments to come...)
 ```
 
