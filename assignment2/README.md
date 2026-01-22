@@ -1,6 +1,6 @@
 # Assignment 2: Control Structures in Python
 
-## Module 3: Control Structures in Python
+## Control Structures in Python
 
 This assignment contains two tasks focusing on control structures in Python including conditional statements (if-else) and loops (for loop).
 
@@ -70,3 +70,16 @@ The sum of numbers from 1 to 50 is: 1275
 - `task1.py` - Even or odd checker program
 - `task2.py` - Sum of integers program
 - `README.md` - This documentation file
+
+---
+
+## 👤 Author
+
+[Himansu Arya]
+Created as part of the TuteDude Python Programming Course - Module 16
+
+---
+
+## 📄 License
+
+This project is for educational purposes as part of the TuteDude Python course.
