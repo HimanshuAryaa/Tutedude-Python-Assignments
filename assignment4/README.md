@@ -1,6 +1,6 @@
 # Assignment 4: Files, Exceptions, and Errors in Python
 
-## Module 5: Files, Exceptions, and Errors in Python
+## Files, Exceptions, and Errors in Python
 
 This assignment contains two tasks focusing on file handling operations and implementing proper exception handling in Python.
 
@@ -95,3 +95,16 @@ This is additional data.
 
 ## 📝 Note
 For Task 1 to work properly, create a `sample.txt` file in the same directory with some sample content, or test the error handling by running without the file.
+
+---
+
+## 👤 Author
+
+[Himansu Arya]
+Created as part of the TuteDude Python Programming Course 
+
+---
+
+## 📄 License
+
+This project is for educational purposes as part of the TuteDude Python course.
