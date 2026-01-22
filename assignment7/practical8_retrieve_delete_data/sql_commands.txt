@@ -1,0 +1,44 @@
+student=# SELECT name FROM students;
+  name
+--------
+ Anshu
+ Pooja
+ Kartik
+(3 rows)
+
+
+student=# SELECT * FROM students WHERE age>22;
+ name  | number | age
+-------+--------+-----
+ Anshu |      2 |  25
+ Pooja |     12 |  23
+(2 rows)
+
+
+student=# SELECT name,number FROM students WHERE name='anshu';
+ name | number
+------+--------
+(0 rows)
+
+
+student=# SELECT name,number FROM students WHERE name='Anshu';
+ name  | number
+-------+--------
+ Anshu |      2
+(1 row)
+
+
+student=# TRUNCATE TABLE students;
+TRUNCATE TABLE
+student=# \d
+          List of relations
+ Schema |   Name   | Type  |  Owner
+--------+----------+-------+----------
+ public | students | table | postgres
+(1 row)
+
+
+student=# SELECT * FROM students;
+ name | number | age
+------+--------+-----
+(0 rows)
