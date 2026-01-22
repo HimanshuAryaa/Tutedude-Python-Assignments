@@ -80,7 +80,7 @@ Hello, Himanshu Arya! Welcome to the python program.
 ## 👤 Author
 
 [Himansu Arya]
-Created as part of the TuteDude Python Programming Course - Module 16
+Created as part of the TuteDude Python Programming Course 
 
 ---
 
