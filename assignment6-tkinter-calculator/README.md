@@ -1,6 +1,6 @@
 # Assignment 6: Calculator Using Tkinter
 
-## Module 14 & 15: Calculator Using Tkinter
+## Calculator Using Tkinter
 
 This assignment is a GUI-based calculator application built using Python's Tkinter library. The calculator performs basic arithmetic operations with a clean, user-friendly interface.
 
@@ -58,21 +58,21 @@ Result: 40
 ## 📸 Screenshots
 
 ### Calculator Initial State
-![Calculator Initial State](assignment6-tkinter-calculator/screenshots/calculator_initial.png)
+![Calculator Initial State](/assignment6-tkinter-calculator/screenshots/calculator_initial.png)
 
 *The calculator interface on startup with default '0' display*
 
 ---
 
 ### Calculator in Action
-![Calculator Performing Operation](assignment6-tkinter-calculator/screenshots/calculator_operation.png)
+![Calculator Performing Operation](/assignment6-tkinter-calculator/screenshots/calculator_operation.png)
 
 *Example showing a calculation being performed (58 displayed)*
 
 ---
 
 ### Error Handling Demo
-![Division by Zero Error](assignment6-tkinter-calculator/screenshots/calculator_error.png)
+![Division by Zero Error](/assignment6-tkinter-calculator/screenshots/calculator_error.png)
 
 *Error message displayed when attempting to divide by zero*
 
@@ -149,8 +149,8 @@ Possible improvements for the calculator:
 
 ## 👤 Author
 
-[Himanshu Arya]
-Created as part of the TuteDude Python Programming Course - Module 14 & 15
+[Himansu Arya]
+Created as part of the TuteDude Python Programming Course 
 
 ---
 
