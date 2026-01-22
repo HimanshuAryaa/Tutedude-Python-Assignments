@@ -1,6 +1,6 @@
 # Assignment 5: Data Structures and Strings in Python
 
-## Module 6: Data Structures and Strings in Python
+## Data Structures and Strings in Python
 
 This assignment contains two tasks focusing on Python data structures including dictionaries and lists, along with list slicing operations.
 
@@ -80,3 +80,16 @@ Reversed extracted elements: [5, 4, 3, 2, 1]
 - `task1.py` - Student marks dictionary lookup program
 - `task2.py` - List slicing demonstration program
 - `README.md` - This documentation file
+
+---
+
+## 👤 Author
+
+[Himansu Arya]
+Created as part of the TuteDude Python Programming Course 
+
+---
+
+## 📄 License
+
+This project is for educational purposes as part of the TuteDude Python course.
