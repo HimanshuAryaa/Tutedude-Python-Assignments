@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+
+{% block title %}Registration Form{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card shadow-sm">
+                <div class="card-body p-4">
+                    <h2 class="text-center mb-4">Registration Page</h2>
+                    <form action="/confirmation" method="POST">
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" name="name" class="form-control" placeholder="Himanshu" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" name="email" class="form-control" placeholder="abc@xyz.com" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Phone Number</label>
+                            <input type="tel" name="phone_number" class="form-control" placeholder="1234567890" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" id="password" name="password" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Confirm Password</label>
+                            <input type="password" id="confirm_password" name="confirm_password" class="form-control" required>
+                            <div id="password-error" class="text-danger small mt-1" style="display:none;">
+                                Passwords do not match!
+                            </div>
+                        </div>
+
+                        <div class="d-grid mt-4">
+                            <input type="submit" value="Submit" class="btn btn-primary btn-lg">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const password = document.getElementById('password');
+    const confirmPassword = document.getElementById('confirm_password');
+    const errorMsg = document.getElementById('password-error');
+    const submitBtn = document.querySelector('input[type="submit"]');
+
+    function validatePassword() {
+        if (password.value !== confirmPassword.value && confirmPassword.value !== "") {
+            errorMsg.style.display = 'block';
+            submitBtn.disabled = true;
+        } else {
+            errorMsg.style.display = 'none';
+            submitBtn.disabled = false;
+        }
+    }
+
+    password.addEventListener('input', validatePassword);
+    confirmPassword.addEventListener('input', validatePassword);
+</script>
+
+{% endblock %}

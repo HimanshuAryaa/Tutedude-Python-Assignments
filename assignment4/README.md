@@ -100,7 +100,7 @@ For Task 1 to work properly, create a `sample.txt` file in the same directory wi
 
 ## 👤 Author
 
-[Himansu Arya]
+[Himanshu Arya]
 Created as part of the TuteDude Python Programming Course 
 
 ---

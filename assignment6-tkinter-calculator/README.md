@@ -149,7 +149,7 @@ Possible improvements for the calculator:
 
 ## 👤 Author
 
-[Himansu Arya]
+[Himanshu Arya]
 Created as part of the TuteDude Python Programming Course 
 
 ---

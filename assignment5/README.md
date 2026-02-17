@@ -85,7 +85,7 @@ Reversed extracted elements: [5, 4, 3, 2, 1]
 
 ## 👤 Author
 
-[Himansu Arya]
+[Himanshu Arya]
 Created as part of the TuteDude Python Programming Course 
 
 ---

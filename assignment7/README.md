@@ -329,7 +329,7 @@ assignment7/
 
 ## 👤 Author
 
-[Himansu Arya]
+[Himanshu Arya]
 Created as part of the TuteDude Python Programming Course - Module 16
 
 ---

@@ -90,7 +90,7 @@ Sine: -0.2879033166650653
 
 ## 👤 Author
 
-[Himansu Arya]
+[Himanshu Arya]
 Created as part of the TuteDude Python Programming Course
 
 ---
