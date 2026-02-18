@@ -58,13 +58,43 @@ Tutedude-Python-Assignments/
 │   ├── README.md
 │   ├── registration_form.py                - Main Flask application
 │   ├── templates/
-│   │   ├── base.html                       - Base template with navbar and Bootstrap
-│   │   ├── index.html                      - Registration form page
-│   │   └── confirmation.html               - Success confirmation page
+│       ├── base.html                       - Base template with navbar and Bootstrap
+│       ├── index.html                      - Registration form page
+│       └── confirmation.html               - Success confirmation page
 │   └── screenshots/
-│   │   ├── registration_form.png           - Registration Form Screenshot
-│   │   └── confirmation_page.png           - Confirmation Page Screenshot
+│       ├── registration_form.png           - Registration Form Screenshot
+│       └── confirmation_page.png           - Confirmation Page Screenshot
 └── (more assignments to come...)
+└── assignment9-REST_API_Using_Django/
+│   ├── blog/
+│       ├── blog/
+│           ├── __init__.py
+│           ├── settings.py              # Django settings with REST framework config
+│           ├── urls.py                  # Main URL configuration
+│           ├── wsgi.py
+│           └── asgi.py
+│       ├── restapp/
+│           ├── __init__.py
+│           ├── models.py                # BlogPost model
+│           ├── views.py                 # API views and viewsets
+│           ├── serializers.py           # Data serializers
+│           ├── permissions.py           # Custom permission classes
+│           ├── filters.py               # Custom filter classes
+│           ├── admin.py                 # Admin panel configuration
+│           ├── apps.py
+│           ├── tests.py
+│           └── migrations/
+│       ├── db.sqlite3                   # SQLite database
+│       ├── manage.py                    # Django management script
+│       ├── screenshots/
+│           ├── api_hello_world.png
+│           ├── post_list.png
+│           ├── post_create.png
+│           ├── post_detail.png
+│           ├── post_filter.png
+│           ├── post_search.png
+│           └── admin_panel.png
+│       └── README.md                    # This documentation file
 ```
 
 ## 📝 Assignments
@@ -94,7 +124,7 @@ Tutedude-Python-Assignments/
 - **Task 1**: Create a Dictionary of Student Marks
 - **Task 2**: Demonstrate List Slicing
 
-### [Assignment 6: Calculator Using Tkinter](./assignment6/)
+### [Assignment 6: Calculator Using Tkinter](./assignment6-tkinter-calculator/)
 **Calculator Using Tkinter**
 - GUI-based calculator application with basic arithmetic operations
 - Built with Python Tkinter library
@@ -106,13 +136,19 @@ Tutedude-Python-Assignments/
 - Python-PostgreSQL integration using psycopg2
 - Includes 11 practical exercises with screenshots and code
 
-### [Assignment 8: Flask Registration Form Project](./assignment8/)
+### [Assignment 8: Flask Registration Form Project](./assignment8-Flask_Registration_Form/)
 **Flask - Registration Form Project**
 - Full-stack web application with user registration form
 - Built with Flask framework and Bootstrap 5
 - Real-time password validation with JavaScript
 - Template inheritance and responsive design
 
+### [Assignment 9: REST API Using Django](./assignment9-REST_API_Using_Django/)
+**REST API's Using Django**
+- Complete RESTful API for blog post management
+- User authentication and custom permissions
+- Advanced filtering, searching, and pagination
+- Built with Django REST Framework
 ## 🚀 How to Use This Repository
 
 1. Navigate to the specific assignment folder

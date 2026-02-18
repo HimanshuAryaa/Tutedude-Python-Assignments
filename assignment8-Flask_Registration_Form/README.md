@@ -25,7 +25,7 @@ A fully functional registration form web application that allows users to regist
 
 ## 📂 Project Structure
 ```
-assignment8/
+assignment8-Flask_Registration_Form/
 ├── registration_form.py        # Main Flask application
 ├── templates/
 │   ├── base.html              # Base template with navbar and Bootstrap
