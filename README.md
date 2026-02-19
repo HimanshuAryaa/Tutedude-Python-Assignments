@@ -69,23 +69,23 @@ Tutedude-Python-Assignments/
 │   ├── blog/
 │       ├── blog/
 │           ├── __init__.py
-│           ├── settings.py              # Django settings with REST framework config
-│           ├── urls.py                  # Main URL configuration
+│           ├── settings.py                 - Django settings with REST framework config
+│           ├── urls.py                     - Main URL configuration
 │           ├── wsgi.py
 │           └── asgi.py
 │       ├── restapp/
 │           ├── __init__.py
-│           ├── models.py                # BlogPost model
-│           ├── views.py                 # API views and viewsets
-│           ├── serializers.py           # Data serializers
-│           ├── permissions.py           # Custom permission classes
-│           ├── filters.py               # Custom filter classes
-│           ├── admin.py                 # Admin panel configuration
+│           ├── models.py                   - BlogPost model
+│           ├── views.py                    - API views and viewsets
+│           ├── serializers.py              - Data serializers
+│           ├── permissions.py              - Custom permission classes
+│           ├── filters.py                  - Custom filter classes
+│           ├── admin.py                    - Admin panel configuration
 │           ├── apps.py
 │           ├── tests.py
 │           └── migrations/
-│       ├── db.sqlite3                   # SQLite database
-│       ├── manage.py                    # Django management script
+│       ├── db.sqlite3                      - SQLite database
+│       ├── manage.py                       - Django management script
 │       ├── screenshots/
 │           ├── api_hello_world.png
 │           ├── post_list.png
@@ -94,7 +94,18 @@ Tutedude-Python-Assignments/
 │           ├── post_filter.png
 │           ├── post_search.png
 │           └── admin_panel.png
-│       └── README.md                    # This documentation file
+│       └── README.md                       - This documentation file
+├── assignment10-Price_Tracker/
+│   ├── README.md                           - This documentation file
+│   ├── price_tracker.py                    - Main web scraping application
+│   ├── Scraper/                            - Auto-generated folder for output
+│   │   ├── prices.csv                      - CSV file with product data
+│   │   └── *.jpg                           - Downloaded product images
+│   └── screenshots/
+│       ├── csv_output.png
+│       ├── downloaded_image.png
+│       └── scraped_data.png
+└── (more assignments to come...)
 ```
 
 ## 📝 Assignments
@@ -149,6 +160,15 @@ Tutedude-Python-Assignments/
 - User authentication and custom permissions
 - Advanced filtering, searching, and pagination
 - Built with Django REST Framework
+
+### [Assignment 10: Web Scraping Implementation](./assignment10-Price_Tracker/)
+**Web Scraping Module Implementation**
+- Amazon price tracker application
+- Product data scraping (title, price, image)
+- CSV data storage for price history
+- Automatic image downloading
+- Built with BeautifulSoup and requests
+
 ## 🚀 How to Use This Repository
 
 1. Navigate to the specific assignment folder
