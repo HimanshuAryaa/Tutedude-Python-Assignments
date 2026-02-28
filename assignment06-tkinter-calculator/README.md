@@ -138,12 +138,12 @@ Possible improvements for the calculator:
 
 ## 📁 Files
 - `src/` - Folder containing sorce code file 
-  - `calculator.py` - Main calculator application file
+- `calculator.py` - Main calculator application file
 - `README.md` - This documentation file
 - `screenshots/` - Folder containing application screenshots
-  - `calculator_initial.png` - Calculator default state
-  - `calculator_operation.png` - Calculator during operation
-  - `calculator_error.png` - Error handling demonstration
+- `calculator_initial.png` - Calculator default state
+- `calculator_operation.png` - Calculator during operation
+- `calculator_error.png` - Error handling demonstration
 
 ---
 

@@ -269,7 +269,7 @@ conn = psycopg2.connect(
 
 ### Project Structure
 ```
-assignment7/
+assignment07/
 ├── README.md
 ├── practical5_create_database/
 │   ├── practical5_create_database.png
