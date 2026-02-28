@@ -116,36 +116,6 @@ API Auth: http://127.0.0.1:8000/api-auth/login/
 
 ---
 
-## 🔍 API Features
-
-### Filtering
-Filter posts by creation date:
-```
-GET /blogpost/?created_on=2026-01-21
-```
-
-### Searching
-Search posts by title or content:
-```
-GET /blogpost/?search=django
-```
-
-### Ordering
-Order posts by ID:
-```
-GET /blogpost/?ordering=id          # Ascending
-GET /blogpost/?ordering=-id         # Descending
-```
-
-### Pagination
-Navigate through paginated results:
-```
-GET /blogpost/?limit=4&offset=0     # First 4 posts
-GET /blogpost/?limit=4&offset=4     # Next 4 posts
-```
-
----
-
 ## 📸 Screenshots
 
 ### API Hello World Response
@@ -311,37 +281,6 @@ GET /blogpost/?limit=4&offset=4     # Next 4 posts
 Django==6.0.2
 djangorestframework==3.14.0
 django-filter==23.3
-```
-
----
-
-## 🧪 Testing the API
-
-### Using Browser (DRF Browsable API)
-1. Login at `/api-auth/login/`
-2. Navigate to `/blogpost/`
-3. Use the HTML forms to interact with the API
-
-### Using curl
-
-**Get all posts:**
-```bash
-curl -X GET http://127.0.0.1:8000/blogpost/ \
-  -H "Authorization: Basic <credentials>"
-```
-
-**Create a post:**
-```bash
-curl -X POST http://127.0.0.1:8000/blogpost/ \
-  -H "Authorization: Basic <credentials>" \
-  -H "Content-Type: application/json" \
-  -d '{"title": "My Post", "content": "Post content"}'
-```
-
-**Search posts:**
-```bash
-curl -X GET "http://127.0.0.1:8000/blogpost/?search=django" \
-  -H "Authorization: Basic <credentials>"
 ```
 
 ---

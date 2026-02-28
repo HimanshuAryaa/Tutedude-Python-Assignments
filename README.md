@@ -1,5 +1,9 @@
 # Tutedude-Python-Assignments
 
+![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
+![Assignments](https://img.shields.io/badge/Assignments-16-green.svg)
+![Status](https://img.shields.io/badge/Status-Complete-success.svg)
+
 This repository contains all my assignment solutions from the TuteDude Python Programming course.
 
 ## 📚 Course Information
@@ -11,101 +15,23 @@ This repository contains all my assignment solutions from the TuteDude Python Pr
 ```
 Tutedude-Python-Assignments/
 ├── README.md
+├── requirements.txt
 ├── assignment1/
-│   ├── README.md
-│   ├── task1.py
-│   └── task2.py
 ├── assignment2/
-│   ├── README.md
-│   ├── task1.py
-│   └── task2.py
 ├── assignment3/
-│   ├── README.md
-│   ├── task1.py
-│   └── task2.py
 ├── assignment4/
-│   ├── README.md
-│   ├── task1.py
-│   ├── task2.py
-│   ├── sample.txt (for Task 1) 
-│   └── output.txt (for Task 2)
 ├── assignment5/
-│   ├── README.md
-│   ├── task1.py
-│   └── task2.py
-└──assignment6-tkinter-calculator/
-│   ├── README.md
-│   ├── src
-│      └── calculator.py                     - Main Tkinter application
-│   └── screenshots/
-│      ├── calculator_initial.png            - default state with 0
-│      ├── calculator_operation.png          - showing 55
-│      └── calculator_error.png              - division by zero error
-└── assignment7/
-│   ├── README.md
-│   ├── practical5_create_database/          - Database creation practical
-│   ├── practical6_delete_database/          - Database deletion practical
-│   ├── practical7_create_table_add_data/    - Table creation and data insertion
-│   ├── practical8_retrieve_delete_data/     - Data retrieval and deletion
-│   ├── practical9_virtualenv_setup/         - Virtual environment setup
-│   ├── practical10_install_psycopg2/        - psycopg2 installation
-│   ├── practical11_database_connection/     - Python-PostgreSQL connection
-│   ├── practical12_create_table_python/     - Creating tables via Python
-│   ├── practical13_insert_data_python/      - Inserting data via Python
-│   ├── practical14_extract_data_python/     - Extracting data via Python
-│   └── practical15_user_input/              - User input integration
-└── assignment8-Flask_Registration_Form/
-│   ├── README.md
-│   ├── registration_form.py                - Main Flask application
-│   ├── templates/
-│       ├── base.html                       - Base template with navbar and Bootstrap
-│       ├── index.html                      - Registration form page
-│       └── confirmation.html               - Success confirmation page
-│   └── screenshots/
-│       ├── registration_form.png           - Registration Form Screenshot
-│       └── confirmation_page.png           - Confirmation Page Screenshot
-└── (more assignments to come...)
-└── assignment9-REST_API_Using_Django/
-│   ├── blog/
-│       ├── blog/
-│           ├── __init__.py
-│           ├── settings.py                 - Django settings with REST framework config
-│           ├── urls.py                     - Main URL configuration
-│           ├── wsgi.py
-│           └── asgi.py
-│       ├── restapp/
-│           ├── __init__.py
-│           ├── models.py                   - BlogPost model
-│           ├── views.py                    - API views and viewsets
-│           ├── serializers.py              - Data serializers
-│           ├── permissions.py              - Custom permission classes
-│           ├── filters.py                  - Custom filter classes
-│           ├── admin.py                    - Admin panel configuration
-│           ├── apps.py
-│           ├── tests.py
-│           └── migrations/
-│       ├── db.sqlite3                      - SQLite database
-│       ├── manage.py                       - Django management script
-│       ├── screenshots/
-│           ├── api_hello_world.png
-│           ├── post_list.png
-│           ├── post_create.png
-│           ├── post_detail.png
-│           ├── post_filter.png
-│           ├── post_search.png
-│           └── admin_panel.png
-│       └── README.md                       - This documentation file
+├── assignment6-tkinter-calculator/
+├── assignment7/
+├── assignment8-Flask_Registration_Form/
+├── assignment9-REST_API_Using_Django/
 ├── assignment10-Price_Tracker/
-│   ├── README.md                           - This documentation file
-│   ├── price_tracker.py                    - Main web scraping application
-│   ├── Scraper/                            - Auto-generated folder for output
-│   │   ├── prices.csv                      - CSV file with product data
-│   │   └── *.jpg                           - Downloaded product images
-│   └── screenshots/
-│       ├── csv_output.png
-│       ├── downloaded_image.png
-│       └── scraped_data.png
-└── (more assignments to come...)
+├── assignment11-OpenCV/
+├── assignment12-Selenium-Getting-Data/
+├── assignment13-facebook-selenium/
+├── assignment14-Chat-Application/
+├── assignment15-User_Management/
+└── assignment16-FlaskForm/
 ```
 
 ## 📝 Assignments
@@ -161,13 +87,101 @@ Tutedude-Python-Assignments/
 - Advanced filtering, searching, and pagination
 - Built with Django REST Framework
 
-### [Assignment 10: Web Scraping Implementation](./assignment10-Price_Tracker/)
+### [Assignment 10: Price Tracer](./assignment10-Price_Tracker/)
 **Web Scraping Module Implementation**
-- Amazon price tracker application
-- Product data scraping (title, price, image)
-- CSV data storage for price history
+- Multi-product Amazon price tracker
+- Price comparison with BUY/WAIT alerts
+- Timestamped CSV history tracking
 - Automatic image downloading
 - Built with BeautifulSoup and requests
+
+### [Assignment 11: Computer Vision with OpenCV](./assignment11-OpenCV/)
+**OpenCV - Image and Video Processing**
+- Comprehensive image processing operations
+- Morphological transformations and filters
+- Geometric transformations (flip, shift, rotate)
+- Thresholding and edge detection
+- Video recording and playback from webcam
+- Built with OpenCV and NumPy
+
+### [Assignment 12: Automation Using Selenium - Getting Data](./assignment12-Selenium-Getting-Data/)
+**Automation Using Selenium: Getting Data**
+- Browser automation with Selenium WebDriver
+- Google search and Amazon navigation automation
+- Multiple element location strategies (Name, Class, Link Text, XPath)
+- Product data extraction and counting
+- Built with Selenium 4.x (auto-managed ChromeDriver)
+
+### [Assignment 13: Facebook Auto Poster](./assignment13-facebook-selenium/)
+**Building A Facebook Auto Poster**
+- Automated Facebook login with Selenium
+- Automated status post creation
+- Element location with XPath
+- Dynamic button identification
+- **Note:** For educational purposes only - may violate Facebook ToS
+
+### [Assignment 14: Network Programming - Chat Application](./assignment14-Chat-Application/)
+**Network Programming In Python Using Sockets: Building A Chat Application**
+- Client-server chat application with sockets
+- Real-time messaging with threading
+- Tkinter GUI for both server and client
+- "bye" command for graceful exit
+- Error handling and proper socket cleanup
+- Built with socket, threading, and Tkinter
+
+### [Assignment 15: User Profile Management API](./assignment15-User_Management/)
+**REST API's Using Django**
+- User profile management with Django REST Framework
+- User registration and CRUD operations
+- Custom permissions for owner-only modifications
+- Built with generic API views (ListCreateAPIView, RetrieveUpdateDestroyAPIView)
+
+### [Assignment 16: Flask Registration Form with Database](./assignment16-FlaskForm/)
+**Flask - Registration Form with Database Integration**
+- User registration form with Flask-WTF
+- Database storage using SQLAlchemy
+- Email validation and password confirmation
+- Form error handling and display
+- Built with Flask, SQLAlchemy, and Flask-WTF
+
+## 🔧 Technologies & Tools
+
+### Languages
+- Python 3.x
+
+### Frameworks & Libraries
+- **Web:** Flask, Django, Django REST Framework
+- **GUI:** Tkinter
+- **Database:** PostgreSQL, SQLAlchemy
+- **Web Scraping:** BeautifulSoup, Requests
+- **Computer Vision:** OpenCV
+- **Automation:** Selenium
+- **Networking:** Sockets, Threading
+
+### Tools
+- Git & GitHub
+- PyCharm
+- PostgreSQL
+- Chrome WebDriver
+
+## 🎯 Quick Start
+
+### Clone the Repository
+```bash
+git clone https://github.com/HimanshuAryaa/Tutedude-Python-Assignments.git
+cd Tutedude-Python-Assignments
+```
+
+### Install All Dependencies (Optional)
+```bash
+pip install -r requirements.txt
+```
+
+### Navigate to Any Assignment
+```bash
+cd assignment1
+python task1.py
+```
 
 ## 🚀 How to Use This Repository
 
@@ -186,19 +200,73 @@ python task2.py
 python calculator.py
 ```
 
-**For Flask project (Assignment 8):**
+**For Flask projects (Assignments 8, 16):**
 ```bash
-pip install flask
-python registration_form.py
+pip install flask flask-sqlalchemy flask-wtf
+python app.py  # or registration_form.py
+```
+
+**For Django projects (Assignments 9, 15):**
+```bash
+pip install django djangorestframework
+python manage.py runserver
+```
+
+**For Web Scraping (Assignment 10):**
+```bash
+pip install requests beautifulsoup4 lxml
+python price_tracker.py
+```
+
+**For OpenCV (Assignment 11):**
+```bash
+pip install opencv-python numpy
+python image.py  # or any other script
+```
+
+**For Selenium (Assignments 12, 13):**
+```bash
+pip install selenium
+python facebook.py  # or getting_data.py
+```
+
+**For Chat Application (Assignment 14):**
+```bash
+python server.py  # Start server first
+python client.py  # Then start client
 ```
 
 ## 🛠️ Requirements
 
-- **Python 3.x**
-- **Tkinter** - Built-in with Python (Assignment 6)
-- **PostgreSQL** - Database server (Assignment 7)
-- **psycopg2-binary** - PostgreSQL adapter for Python (Assignment 7)
-- **Flask** - Web framework (Assignment 8)
+### Core
+- **Python 3.x** - Main programming language
+
+### Assignment-Specific
+
+**Assignment 6:**
+- Tkinter (built-in)
+
+**Assignment 7:**
+- PostgreSQL
+- psycopg2-binary
+
+**Assignments 8, 16:**
+- Flask, Flask-SQLAlchemy, Flask-WTF, email-validator
+
+**Assignments 9, 15:**
+- Django, Django REST Framework, django-filter
+
+**Assignment 10:**
+- requests, beautifulsoup4, lxml
+
+**Assignment 11:**
+- opencv-python, numpy
+
+**Assignments 12, 13:**
+- selenium
+
+**Assignment 14:**
+- socket, threading, tkinter (all built-in)
 
 ## 👤 Author
 Himanshu Arya

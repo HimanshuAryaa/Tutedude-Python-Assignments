@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration Form</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        nav { margin-bottom: 20px; border-bottom: 1px solid #ccc; padding-bottom: 10px; }
+        .container { max-width: 600px; margin: auto; }
+        .error { color: red; font-size: 0.8em; }
+        .success-msg { color: green; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="{{ url_for('index') }}">Home</a>
+        </nav>
+
+        {% block content %} {% endblock %}
+    </div>
+</body>
+</html>

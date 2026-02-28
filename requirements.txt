@@ -1,0 +1,25 @@
+# Web Frameworks
+flask==2.3.0
+django==6.0.2
+djangorestframework==3.14.0
+
+# Database
+flask-sqlalchemy==3.0.0
+psycopg2-binary==2.9.9
+django-filter==23.3
+
+# Forms
+flask-wtf==1.1.0
+email-validator==2.0.0
+
+# Web Scraping
+requests==2.31.0
+beautifulsoup4==4.12.0
+lxml==4.9.0
+
+# Computer Vision
+opencv-python==4.8.0
+numpy==1.24.0
+
+# Automation
+selenium==4.15.0
