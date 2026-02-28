@@ -26,7 +26,7 @@ A fully functional registration form web application that allows users to regist
 
 ## 📂 Project Structure
 ```
-assignment8-Flask_Registration_Form_Database/
+assignment16-Flask_Registration_Form_Database/
 ├── app.py                         # Main Flask application
 ├── forms.py                       
 ├── models.py                       

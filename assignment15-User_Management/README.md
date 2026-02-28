@@ -210,7 +210,7 @@ djangorestframework==3.14.0
 
 ## 👤 Author
 
-Himanshu Arya  
+[Himanshu Arya]  
 Created as part of the TuteDude Python Programming Course
 
 ---
