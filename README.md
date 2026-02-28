@@ -16,15 +16,15 @@ This repository contains all my assignment solutions from the TuteDude Python Pr
 Tutedude-Python-Assignments/
 ├── README.md
 ├── requirements.txt
-├── assignment1/
-├── assignment2/
-├── assignment3/
-├── assignment4/
-├── assignment5/
-├── assignment6-tkinter-calculator/
-├── assignment7/
-├── assignment8-Flask_Registration_Form/
-├── assignment9-REST_API_Using_Django/
+├── assignment01/
+├── assignment02/
+├── assignment03/
+├── assignment04/
+├── assignment05/
+├── assignment06-tkinter-calculator/
+├── assignment07/
+├── assignment08-Flask_Registration_Form/
+├── assignment09-REST_API_Using_Django/
 ├── assignment10-Price_Tracker/
 ├── assignment11-OpenCV/
 ├── assignment12-Selenium-Getting-Data/
@@ -36,7 +36,7 @@ Tutedude-Python-Assignments/
 
 ## 📝 Assignments
 
-### [Assignment 1: Basic Python Concepts](./assignment1/)
+### [Assignment 1: Basic Python Concepts](assignment01/)
 **Basic Python Concepts**
 - **Task 1**: Perform Basic Mathematical Operations
 - **Task 2**: Create a Personalized Greeting
@@ -46,34 +46,34 @@ Tutedude-Python-Assignments/
 - **Task 1**: Check if a Number is Even or Odd
 - **Task 2**: Sum of Integers from 1 to 50 Using a Loop
 
-### [Assignment 3: Functions & Modules in Python](./assignment3/)
+### [Assignment 3: Functions & Modules in Python](assignment03/)
 **Functions & Modules in Python**
 - **Task 1**: Calculate Factorial Using a Function
 - **Task 2**: Using the Math Module for Calculations
 
-### [Assignment 4: Files, Exceptions, and Errors in Python](./assignment4/)
+### [Assignment 4: Files, Exceptions, and Errors in Python](assignment04/)
 **Files, Exceptions, and Errors in Python**
 - **Task 1**: Read a File and Handle Errors
 - **Task 2**: Write and Append Data to a File
 
-### [Assignment 5: Data Structures and Strings in Python](./assignment5/)
+### [Assignment 5: Data Structures and Strings in Python](assignment05/)
 **Data Structures and Strings in Python**
 - **Task 1**: Create a Dictionary of Student Marks
 - **Task 2**: Demonstrate List Slicing
 
-### [Assignment 6: Calculator Using Tkinter](./assignment6-tkinter-calculator/)
+### [Assignment 6: Calculator Using Tkinter](assignment06-tkinter-calculator/)
 **Calculator Using Tkinter**
 - GUI-based calculator application with basic arithmetic operations
 - Built with Python Tkinter library
 
-### [Assignment 7: Building Database Apps with PostgreSQL & Python](./assignment7/)
+### [Assignment 7: Building Database Apps with PostgreSQL & Python](assignment07/)
 **Building Database Apps with PostgreSQL & Python**
 - Complete documentation of all 15 lectures and practicals
 - PostgreSQL database operations
 - Python-PostgreSQL integration using psycopg2
 - Includes 11 practical exercises with screenshots and code
 
-### [Assignment 8: Flask Registration Form Project](./assignment8-Flask_Registration_Form/)
+### [Assignment 8: Flask Registration Form Project](assignment08-Flask_Registration_Form/)
 **Flask - Registration Form Project**
 - Full-stack web application with user registration form
 - Built with Flask framework and Bootstrap 5
@@ -179,7 +179,7 @@ pip install -r requirements.txt
 
 ### Navigate to Any Assignment
 ```bash
-cd assignment1
+cd assignment01
 python task1.py
 ```
 

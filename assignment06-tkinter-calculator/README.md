@@ -58,21 +58,21 @@ Result: 40
 ## 📸 Screenshots
 
 ### Calculator Initial State
-![Calculator Initial State](/assignment6-tkinter-calculator/screenshots/calculator_initial.png)
+![Calculator Initial State](/assignment06-tkinter-calculator/screenshots/calculator_initial.png)
 
 *The calculator interface on startup with default '0' display*
 
 ---
 
 ### Calculator in Action
-![Calculator Performing Operation](/assignment6-tkinter-calculator/screenshots/calculator_operation.png)
+![Calculator Performing Operation](/assignment06-tkinter-calculator/screenshots/calculator_operation.png)
 
 *Example showing a calculation being performed (58 displayed)*
 
 ---
 
 ### Error Handling Demo
-![Division by Zero Error](/assignment6-tkinter-calculator/screenshots/calculator_error.png)
+![Division by Zero Error](/assignment06-tkinter-calculator/screenshots/calculator_error.png)
 
 *Error message displayed when attempting to divide by zero*
 
